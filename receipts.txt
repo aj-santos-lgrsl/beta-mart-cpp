@@ -1,0 +1,564 @@
+--- RECEIPT ---
+Pen x1 - 10 PHP
+Notebook x1 - 25 PHP
+Shampoo x1 - 80 PHP
+Toothpaste x1 - 50 PHP
+Notebook x1 - 25 PHP
+Tax: 15.66 PHP
+Total: 146.16 PHP
+----------------
+
+--- RECEIPT ---
+Mouthwash x1 - 120 PHP
+Pencil x7 - 56 PHP
+Tax: 14.496 PHP
+Total: 135.296 PHP
+----------------
+
+--- RECEIPT ---
+Pen x2 - 20 PHP
+Mouthwash x1 - 120 PHP
+T-Shirt x1 - 150 PHP
+Tax: 25.62 PHP
+Total: 239.12 PHP
+----------------
+
+--- RECEIPT ---
+T-Shirt x1 - 150 PHP
+Tax: 13.5 PHP
+Total: 126 PHP
+----------------
+
+--- RECEIPT ---
+Pen x10 - 100 PHP
+Tax: 6.6 PHP
+Total: 61.6 PHP
+----------------
+
+--- RECEIPT ---
+Notebook x1 - 25 PHP
+Tax: 1.65 PHP
+Total: 15.4 PHP
+----------------
+
+--- RECEIPT ---
+Pen x1 - 10 PHP
+Tax: 0.96 PHP
+Total: 8.96 PHP
+----------------
+
+
+---- 500 BETA MART SHOP ----
+---- Owned and Operated by Group X -----
+---- CSIT Inc., Colegio de San Juan de Letran Calamba ---
+
+Date: 2026
+
+Item & Qty.                       Price
+Coke 1.5L x1                          40
+Shampoo Sachet x1                     80
+
+Discount: 0 PHP
+Tax: 14.4 PHP
+Total: 134.4 PHP
+
+------ Thank you for shopping at 500 BETA MART SHOP! -------
+
+---- 500 BETA MART SHOP ----
+---- Owned and Operated by Group X -----
+---- 1CSIT Inc., Colegio de San Juan de Letran Calamba ---
+
+Date: 2026
+
+Item & Qty.                       Price
+Shampoo Sachet x4                     40
+Pen x5                                50
+Coke 1.5L x1                          40
+
+Discount: 0 PHP
+Tax: 15.6 PHP
+Total: 145.6 PHP
+
+------ Thank you for shopping at 500 BETA MART SHOP! -------
+--- RECEIPT ---
+
+---- 500 BETA MART SHOP ----
+---- Owned and Operated by Group X -----
+---- 1CSIT Inc., Colegio de San Juan de Letran Calamba ---
+
+Date: 2026
+
+Item & Qty.                       Price
+Notebook x5                          150
+Coke 1.5L x1                          40
+
+Discount: 28.5 PHP
+Tax: 19.38 PHP
+Total: 180.88 PHP
+Cash: 200 PHP
+Change: 19.12 PHP
+
+------ Thank you for shopping at 500 BETA MART SHOP! -------
+--- RECEIPT ---
+
+---- 500 BETA MART SHOP ----
+---- Owned and Operated by Group X -----
+---- 1CSIT Inc., Colegio de San Juan de Letran Calamba ---
+
+Date: 2026
+
+Item & Qty.                       Price
+Toothpaste x1                         50
+
+Discount: 0 PHP
+Tax: 6 PHP
+Total: 56 PHP
+Cash: 60 PHP
+Change: 4 PHP
+
+------ Thank you for shopping at 500 BETA MART SHOP! -------
+
+--------------------- RECEIPT ---------------
+
+---------------- 500 BETA MART SHOP ------------
+------------- Owned and Operated by Group X -----
+---- 1CSIT Inc., Colegio de San Juan de Letran Calamba ---
+
+Date: 2026
+
+Item & Qty.                       Price
+Sprite 1.5L x2                        80
+
+Discount: 0 PHP
+Tax: 9.6 PHP
+Total: 89.6 PHP
+Cash: 100 PHP
+Change: 10.4 PHP
+
+---------------- Thank you for shopping at 500 BETA MART SHOP! ----------------
+
+------------------------------------ RECEIPT -------------------------------------
+
+------------------------------- 500 BETA MART SHOP --------------------------------
+----------------------------- Owned and Operated by Group X --------------------------
+------------------- 1CSIT Inc., Colegio de San Juan de Letran Calamba -----------------
+
+Date: 2026
+
+Item & Qty.                       Price
+Toothpaste x1                         50
+
+Discount: 0 PHP
+Tax: 6 PHP
+Total: 56 PHP
+Cash: 100 PHP
+Change: 44 PHP
+
+---------------- Thank you for shopping at 500 BETA MART SHOP! -------------------
+
+------------------------------------ RECEIPT -------------------------------------
+
+------------------------------- 500 BETA MART SHOP --------------------------------
+----------------------------- Owned and Operated by Group X --------------------------
+------------------- 1CSIT Inc., Colegio de San Juan de Letran Calamba -----------------
+
+Date: 2026
+
+Item & Qty.                       Price
+Coke 1.5L x1                          40
+
+Discount: 0 PHP
+Tax: 4.8 PHP
+Total: 44.8 PHP
+
+---------------- Thank you for shopping at 500 BETA MART SHOP! -------------------
+
+------------------------------------ RECEIPT -------------------------------------
+
+------------------------------- 500 BETA MART SHOP --------------------------------
+----------------------------- Owned and Operated by Group X --------------------------
+------------------- 1CSIT Inc., Colegio de San Juan de Letran Calamba -----------------
+
+Date: 2026
+
+Item & Qty.                       Price
+Tissue x1                             20
+Yakult x1                             15
+Pancit Canton x3                      60
+Yellow Pad x1                         30
+
+Discount: 0 PHP
+Tax: 15 PHP
+Total: 140 PHP
+Cash: 200 PHP
+Change: 60 PHP
+
+---------------- Thank you for shopping at 500 BETA MART SHOP! ---------------------
+
+------------------------------------ RECEIPT -------------------------------------
+
+------------------------------- 500 BETA MART SHOP --------------------------------
+----------------------------- Owned and Operated by Group X --------------------------
+------------------- 1CSIT Inc., Colegio de San Juan de Letran Calamba -----------------
+
+Date: 2026
+
+Item & Qty.                       Price
+T-Shirt x1                           150
+
+Discount: 15.3 PHP
+Tax: 22.5 PHP
+Total: 142.8 PHP
+Cash: 200 PHP
+Change: 57.2 PHP
+
+---------------- Thank you for shopping at 500 BETA MART SHOP! ---------------------
+
+------------------------------------ RECEIPT -------------------------------------
+
+------------------------------- 500 BETA MART SHOP --------------------------------
+----------------------------- Owned and Operated by Group X --------------------------
+------------------- 1CSIT Inc., Colegio de San Juan de Letran Calamba -----------------
+
+Date: 2026
+
+Item & Qty.                       Price
+Hot Dog Giant x1                      60
+Siopao Sarap x1                       60
+
+Discount: 10.2 PHP
+Tax: 18 PHP
+Total: 112.2 PHP
+
+---------------- Thank you for shopping at 500 BETA MART SHOP! ---------------------
+
+------------------------------------ RECEIPT -------------------------------------
+
+------------------------------- 500 BETA MART SHOP --------------------------------
+----------------------------- Owned and Operated by Group X --------------------------
+------------------- 1CSIT Inc., Colegio de San Juan de Letran Calamba -----------------
+
+Date: 2026
+
+Item & Qty.                       Price
+Tipid Siomai Rice x1                  60
+Yakult x1                             15
+
+Discount: 6.375 PHP
+Tax: 11.25 PHP
+Total: 70.125 PHP
+Cash: 100 PHP
+Change: 29.875 PHP
+
+------------------ Thank you for shopping at 500 BETA MART SHOP! ---------------------
+
+------------------------------------ RECEIPT -------------------------------------
+
+------------------------------- 500 BETA MART SHOP --------------------------------
+----------------------------- Owned and Operated by Group X --------------------------
+------------------- 1CSIT Inc., Colegio de San Juan de Letran Calamba -----------------
+
+Date: 2026
+
+Item & Qty.                       Price
+Hot Dog Giant x1                      60
+
+Discount: 5.1 PHP
+Tax: 9 PHP
+Total: 56.1 PHP
+Cash: 100 PHP
+Change: 43.9 PHP
+
+------------------ Thank you for shopping at 500 BETA MART SHOP! ---------------------
+
+------------------------------------ RECEIPT -------------------------------------
+
+------------------------------- 500 BETA MART SHOP --------------------------------
+----------------------------- Owned and Operated by Group X --------------------------
+------------------- 1CSIT Inc., Colegio de San Juan de Letran Calamba -----------------
+
+Date: 2026
+
+Item & Qty.                       Price
+Tipid Siomai Rice x1                  60
+
+Discount: 5.1 PHP
+Tax: 9 PHP
+Total: 56.1 PHP
+Cash: 100 PHP
+Change: 43.9 PHP
+
+------------------ Thank you for shopping at 500 BETA MART SHOP! ---------------------
+
+------------------------------------ RECEIPT -------------------------------------
+
+------------------------------- 500 BETA MART SHOP --------------------------------
+----------------------------- Owned and Operated by Group X --------------------------
+------------------- 1CSIT Inc., Colegio de San Juan de Letran Calamba -----------------
+
+Date: 2026
+
+Item & Qty.                       Price
+Hot Dog Giant x1                      60
+
+Discount: 5.1 PHP
+Tax: 9 PHP
+Total: 56.1 PHP
+Cash: 100 PHP
+Change: 43.9 PHP
+
+------------------ Thank you for shopping at 500 BETA MART SHOP! ---------------------
+
+------------------------------------ RECEIPT -------------------------------------
+
+------------------------------- 500 BETA MART SHOP --------------------------------
+----------------------------- Owned and Operated by Group X --------------------------
+------------------- 1CSIT Inc., Colegio de San Juan de Letran Calamba -----------------
+
+Date: 2026
+
+Item & Qty.                       Price
+Sprite 1.5L x1                        40
+
+Discount: 4 PHP
+Tax: 0 PHP
+Total: 44 PHP
+Cash: 50 PHP
+Change: 6 PHP
+
+------------------ Thank you for shopping at 500 BETA MART SHOP! ---------------------
+
+------------------------------------ RECEIPT -------------------------------------
+
+------------------------------- 500 BETA MART SHOP --------------------------------
+----------------------------- Owned and Operated by Group X --------------------------
+------------------- 1CSIT Inc., Colegio de San Juan de Letran Calamba -----------------
+
+Date: 2026
+
+Item & Qty.                       Price
+Alcohol x1                            45
+
+Discount: 4.5 PHP
+Tax: 0 PHP
+Total: 49.5 PHP
+Cash: 50 PHP
+Change: 0.5 PHP
+
+------------------ Thank you for shopping at 500 BETA MART SHOP! ---------------------
+
+------------------------------------ RECEIPT -------------------------------------
+
+------------------------------- 500 BETA MART SHOP --------------------------------
+----------------------------- Owned and Operated by Group X --------------------------
+------------------- 1CSIT Inc., Colegio de San Juan de Letran Calamba -----------------
+
+Date: 2026
+
+Item & Qty.                       Price
+Hot Dog Giant x1                      60
+
+Discount: 5.4 PHP
+Tax: 6 PHP
+Total: 59.4 PHP
+
+------------------ Thank you for shopping at 500 BETA MART SHOP! ---------------------
+
+------------------------------------ RECEIPT -------------------------------------
+
+------------------------------- 500 BETA MART SHOP --------------------------------
+---------------------------- Owned and Operated by Group X --------------------------
+------------------- 1CSIT Inc., Colegio de San Juan de Letran Calamba -----------------
+
+Date: 2026
+
+Item & Qty.                       Price
+Tissue x1                             20
+Coke 1.5L x1                          40
+
+Discount: 5.1 PHP
+Tax: 9 PHP
+Total: 56.1 PHP
+Cash: 100 PHP
+Change: 43.9 PHP
+
+------------------ Thank you for shopping at 500 BETA MART SHOP! ---------------------
+
+------------------------------------ RECEIPT -------------------------------------
+
+------------------------------- 500 BETA MART SHOP --------------------------------
+---------------------------- Owned and Operated by Group X --------------------------
+------------------- 1CSIT Inc., Colegio de San Juan de Letran Calamba -----------------
+
+Date: 2026
+
+Item & Qty.                       Price
+Yellow Pad x2                         60
+Hot Dog Giant x1                      60
+
+Discount: 9.6 PHP
+Tax: 24 PHP
+Total: 105.6 PHP
+
+------------------ Thank you for shopping at 500 BETA MART SHOP! ---------------------
+
+------------------------------------ RECEIPT -------------------------------------
+
+------------------------------- 500 BETA MART SHOP --------------------------------
+---------------------------- Owned and Operated by Group X --------------------------
+------------------- 1CSIT Inc., Colegio de San Juan de Letran Calamba -----------------
+
+Date: 2026
+
+Item & Qty.                       Price
+Coke 1.5L x1                          40
+
+Discount: 3.4 PHP
+Tax: 6 PHP
+Total: 37.4 PHP
+Cash: 100 PHP
+Change: 62.6 PHP
+
+------------------ Thank you for shopping at 500 BETA MART SHOP! ---------------------
+
+------------------------------------ RECEIPT -------------------------------------
+
+------------------------------- 500 BETA MART SHOP --------------------------------
+---------------------------- Owned and Operated by Group X --------------------------
+------------------- 1CSIT Inc., Colegio de San Juan de Letran Calamba -----------------
+
+Date: 2026
+
+Item & Qty.                       Price
+Towel x1                              40
+Mineral Water x1                      20
+Yellow Pad x1                         30
+Pancit Canton x2                      40
+Oreo x1                               30
+
+Discount: 13.6 PHP
+Tax: 24 PHP
+Total: 149.6 PHP
+
+------------------ Thank you for shopping at 500 BETA MART SHOP! ---------------------
+
+------------------------------------ RECEIPT -------------------------------------
+
+------------------------------- 500 BETA MART SHOP --------------------------------
+---------------------------- Owned and Operated by Group X --------------------------
+------------------- 1CSIT Inc., Colegio de San Juan de Letran Calamba -----------------
+
+Date: 2026
+
+Item & Qty.                       Price
+Hot Dog Giant x1                      60
+
+Discount: 5.1 PHP
+Tax: 9 PHP
+Total: 56.1 PHP
+Cash: 100 PHP
+Change: 43.9 PHP
+
+------------------ Thank you for shopping at 500 BETA MART SHOP! ---------------------
+
+------------------------------------ RECEIPT -------------------------------------
+
+------------------------------- 500 BETA MART SHOP --------------------------------
+---------------------------- Owned and Operated by Group X --------------------------
+------------------- 1CSIT Inc., Colegio de San Juan de Letran Calamba -----------------
+
+Date: 2026
+
+Item & Qty.                       Price
+Kopiko Bottle x1                      25
+Hot Dog Giant x1                      60
+Scissors x2                           70
+
+Discount: 13.175 PHP
+Tax: 23.25 PHP
+Total: 144.925 PHP
+
+------------------ Thank you for shopping at 500 BETA MART SHOP! ---------------------
+
+------------------------------------ RECEIPT -------------------------------------
+
+------------------------------- 500 BETA MART SHOP --------------------------------
+---------------------------- Owned and Operated by Group X --------------------------
+------------------- 1CSIT Inc., Colegio de San Juan de Letran Calamba -----------------
+
+Date: 2026
+
+Item & Qty.                       Price
+Siopao Sarap x2                      120
+
+Discount: 10.2 PHP
+Tax: 18 PHP
+Total: 112.2 PHP
+Cash: 200 PHP
+Change: 87.8 PHP
+
+------------------ Thank you for shopping at 500 BETA MART SHOP! ---------------------
+
+------------------------------------ RECEIPT -------------------------------------
+
+------------------------------- 500 BETA MART SHOP --------------------------------
+---------------------------- Owned and Operated by Group X --------------------------
+------------------- 1CSIT Inc., Colegio de San Juan de Letran Calamba -----------------
+
+Date: 2026
+
+Item & Qty.                       Price
+Rexona Deodorant Sachet x1            12
+Kopiko Bottle x2                      50
+Siopao Sarap x1                       60
+
+Discount: 10.37 PHP
+Tax: 18.3 PHP
+Total: 114.07 PHP
+
+------------------ Thank you for shopping at 500 BETA MART SHOP! ---------------------
+
+------------------------------------ RECEIPT -------------------------------------
+
+------------------------------- 500 BETA MART SHOP --------------------------------
+---------------------------- Owned and Operated by Group X --------------------------
+------------------- 1CSIT Inc., Colegio de San Juan de Letran Calamba -----------------
+
+Date: 2026
+
+Item & Qty.                       Price
+Cap x1                               100
+Pancit Canton x2                      40
+Jacket x0                              0
+Pen x1                                10
+Pencil x2                             16
+Hot Dog Giant x1                      60
+Tax: 33.9 PHP
+
+Discount: 19.21 PHP
+Total: 211.31 PHP
+Cash: 250 PHP
+Change: 38.69 PHP
+
+------------------ Thank you for shopping at 500 BETA MART SHOP! ---------------------
+
+------------------------------------ RECEIPT -------------------------------------
+
+------------------------------- 500 BETA MART SHOP --------------------------------
+---------------------------- Owned and Operated by Group X --------------------------
+------------------- 1CSIT Inc., Colegio de San Juan de Letran Calamba -----------------
+
+Date: 2026
+
+Item & Qty.                       Price
+Bath Soap x1                          25
+Chips Ahoy! x2                        50
+Kopiko Bottle x1                      25
+Tax: 15 PHP
+
+Discount: 8.5 PHP
+Total: 93.5 PHP
+Cash: 100 PHP
+Change: 6.5 PHP
+
+------------------ Thank you for shopping at 500 BETA MART SHOP! ---------------------
