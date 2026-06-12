@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>500 BETA MART SHOP - Interactive Store System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <h1>🛒 500 BETA MART SHOP</h1>
+                <p class="tagline">Your Complete Interactive Store Experience</p>
+            </div>
+            <nav class="nav-links">
+                <button id="navDashboard" class="nav-btn active">Dashboard</button>
+                <button id="navShop" class="nav-btn">Shop</button>
+                <button id="navCart" class="nav-btn">
+                    Cart <span id="cartCount" class="badge">0</span>
+                </button>
+                <button id="navAccount" class="nav-btn">Account</button>
+                <button id="navAdmin" class="nav-btn admin-only">Admin</button>
+                <button id="navLogout" class="nav-btn logout">Logout</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="container">
+        <!-- Authentication Screen -->
+        <section id="authScreen" class="screen">
+            <div class="auth-container">
+                <div class="auth-box">
+                    <h2>Welcome to 500 BETA MART SHOP</h2>
+                    <p>Your trusted online store powered by Group 2</p>
+                    
+                    <div class="auth-tabs">
+                        <button class="tab-btn active" data-tab="login">Login</button>
+                        <button class="tab-btn" data-tab="register">Register</button>
+                    </div>
+
+                    <!-- Login Tab -->
+                    <div id="loginTab" class="tab-content active">
+                        <form id="loginForm">
+                            <div class="form-group">
+                                <label>Username:</label>
+                                <input type="text" id="loginUsername" placeholder="Enter username" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Password:</label>
+                                <input type="password" id="loginPassword" placeholder="Enter password" required>
+                            </div>
+                            <button type="submit" class="btn-primary">Login</button>
+                            <p class="guest-link">
+                                <a href="#" id="guestLogin">Continue as Guest</a>
+                            </p>
+                        </form>
+                    </div>
+
+                    <!-- Register Tab -->
+                    <div id="registerTab" class="tab-content">
+                        <form id="registerForm">
+                            <div class="form-group">
+                                <label>Full Name:</label>
+                                <input type="text" id="regFullName" placeholder="Enter full name" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Username:</label>
+                                <input type="text" id="regUsername" placeholder="Choose username" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Email:</label>
+                                <input type="email" id="regEmail" placeholder="Enter email" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Password:</label>
+                                <input type="password" id="regPassword" placeholder="Create password" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Confirm Password:</label>
+                                <input type="password" id="regConfirmPassword" placeholder="Confirm password" required>
+                            </div>
+                            <div class="form-group checkbox">
+                                <input type="checkbox" id="isStudent" name="isStudent">
+                                <label for="isStudent">I am a student (15% discount)</label>
+                            </div>
+                            <div class="form-group" id="studentIdGroup" style="display: none;">
+                                <label>Student ID (7 digits):</label>
+                                <input type="text" id="studentId" placeholder="7-digit student ID">
+                            </div>
+                            <button type="submit" class="btn-primary">Register</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dashboard Screen -->
+        <section id="dashboardScreen" class="screen hidden">
+            <div class="dashboard-grid">
+                <!-- Sidebar -->
+                <aside class="sidebar">
+                    <div class="user-profile">
+                        <div class="avatar">👤</div>
+                        <div class="profile-info">
+                            <h3 id="userName">Welcome</h3>
+                            <p id="userStatus">Regular Customer</p>
+                        </div>
+                    </div>
+
+                    <div class="quick-stats">
+                        <div class="stat-item">
+                            <span class="stat-label">Wallet Balance</span>
+                            <span class="stat-value" id="walletBalance">₱500.00</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Loyalty Points</span>
+                            <span class="stat-value" id="loyaltyPoints">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Active Coupons</span>
+                            <span class="stat-value" id="couponCount">0</span>
+                        </div>
+                    </div>
+
+                    <div class="badges-section">
+                        <h4>Achievements</h4>
+                        <div id="badgesList" class="badges-list"></div>
+                    </div>
+                </aside>
+
+                <!-- Main Content -->
+                <div class="main-content">
+                    <!-- Featured Promotions -->
+                    <section class="featured-section">
+                        <h2>🎉 Today's Special Offers</h2>
+                        <div class="promotions-grid" id="promotionsGrid">
+                            <!-- Promotions will be inserted here -->
+                        </div>
+                    </section>
+
+                    <!-- Quick Access Links -->
+                    <section class="quick-links-section">
+                        <h2>Quick Access</h2>
+                        <div class="quick-links">
+                            <a href="#" class="quick-link" data-action="shop">
+                                <span class="icon">🛍️</span>
+                                <span>Browse Store</span>
+                            </a>
+                            <a href="#" class="quick-link" data-action="promotions">
+                                <span class="icon">🔥</span>
+                                <span>View All Deals</span>
+                            </a>
+                            <a href="#" class="quick-link" data-action="history">
+                                <span class="icon">📋</span>
+                                <span>Purchase History</span>
+                            </a>
+                            <a href="#" class="quick-link" data-action="coupons">
+                                <span class="icon">🎫</span>
+                                <span>My Coupons</span>
+                            </a>
+                        </div>
+                    </section>
+
+                    <!-- Sales Analytics -->
+                    <section class="analytics-section">
+                        <h2>Store Analytics</h2>
+                        <div class="analytics-grid">
+                            <div class="analytics-card">
+                                <h3>Daily Sales</h3>
+                                <p id="dailySales" class="big-number">₱0.00</p>
+                            </div>
+                            <div class="analytics-card">
+                                <h3>Top Product</h3>
+                                <p id="topProduct" class="big-number">—</p>
+                            </div>
+                            <div class="analytics-card">
+                                <h3>Total Customers</h3>
+                                <p id="totalCustomers" class="big-number">0</p>
+                            </div>
+                            <div class="analytics-card">
+                                <h3>Avg Order Value</h3>
+                                <p id="avgOrderValue" class="big-number">₱0.00</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <!-- Shop Screen -->
+        <section id="shopScreen" class="screen hidden">
+            <div class="shop-container">
+                <!-- Filters Sidebar -->
+                <aside class="filters-sidebar">
+                    <h3>Filters</h3>
+                    <div class="filter-group">
+                        <label>Categories:</label>
+                        <div id="categoriesList" class="categories-list"></div>
+                    </div>
+                    <div class="filter-group">
+                        <label>Price Range:</label>
+                        <input type="range" id="priceRange" min="0" max="500" value="500">
+                        <span id="priceDisplay">₱0 - ₱500</span>
+                    </div>
+                    <div class="filter-group">
+                        <label>Search:</label>
+                        <input type="text" id="searchBox" placeholder="Search items..." class="search-input">
+                    </div>
+                    <button class="btn-secondary" id="clearFilters">Clear Filters</button>
+                </aside>
+
+                <!-- Products Grid -->
+                <div class="products-section">
+                    <h2>Products</h2>
+                    <div class="view-options">
+                        <button class="view-btn active" data-view="grid">Grid</button>
+                        <button class="view-btn" data-view="list">List</button>
+                    </div>
+                    <div id="productsGrid" class="products-grid"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cart Screen -->
+        <section id="cartScreen" class="screen hidden">
+            <div class="cart-container">
+                <h2>Shopping Cart</h2>
+                
+                <div class="cart-content">
+                    <div class="cart-items-list">
+                        <div id="cartItemsList" class="cart-items"></div>
+                    </div>
+
+                    <aside class="cart-summary">
+                        <h3>Order Summary</h3>
+                        <div class="summary-row">
+                            <span>Subtotal:</span>
+                            <span id="cartSubtotal">₱0.00</span>
+                        </div>
+                        <div class="summary-row">
+                            <span>Discounts:</span>
+                            <span id="cartDiscount" class="discount">-₱0.00</span>
+                        </div>
+                        <div class="summary-row">
+                            <span>Tax (10%):</span>
+                            <span id="cartTax">₱0.00</span>
+                        </div>
+                        <div class="summary-row total">
+                            <span>Grand Total:</span>
+                            <span id="cartTotal">₱0.00</span>
+                        </div>
+
+                        <div class="coupons-section">
+                            <h4>Apply Coupon</h4>
+                            <select id="couponSelect" class="coupon-select">
+                                <option value="">Select a coupon...</option>
+                            </select>
+                        </div>
+
+                        <div class="payment-methods">
+                            <h4>Payment Method</h4>
+                            <div class="payment-options">
+                                <label class="payment-option">
+                                    <input type="radio" name="paymentMethod" value="cash" checked>
+                                    💵 Cash
+                                </label>
+                                <label class="payment-option">
+                                    <input type="radio" name="paymentMethod" value="ewallet">
+                                    💳 E-Wallet
+                                </label>
+                                <label class="payment-option">
+                                    <input type="radio" name="paymentMethod" value="credit">
+                                    🏦 Credit Card
+                                </label>
+                                <label class="payment-option">
+                                    <input type="radio" name="paymentMethod" value="later">
+                                    📅 Pay Later
+                                </label>
+                            </div>
+                        </div>
+
+                        <button class="btn-primary btn-large" id="checkoutBtn">Proceed to Checkout</button>
+                        <button class="btn-secondary btn-large" id="continueShopping">Continue Shopping</button>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <!-- Account Screen -->
+        <section id="accountScreen" class="screen hidden">
+            <div class="account-container">
+                <div class="account-tabs">
+                    <button class="account-tab-btn active" data-account-tab="profile">Profile</button>
+                    <button class="account-tab-btn" data-account-tab="wallet">Wallet</button>
+                    <button class="account-tab-btn" data-account-tab="history">Purchase History</button>
+                    <button class="account-tab-btn" data-account-tab="loyalty">Loyalty Program</button>
+                    <button class="account-tab-btn" data-account-tab="settings">Settings</button>
+                </div>
+
+                <!-- Profile Tab -->
+                <div id="profileTab" class="account-tab-content active">
+                    <h2>Profile Information</h2>
+                    <div class="profile-form">
+                        <div class="form-group">
+                            <label>Name:</label>
+                            <input type="text" id="profileName" readonly>
+                        </div>
+                        <div class="form-group">
+                            <label>Email:</label>
+                            <input type="email" id="profileEmail" readonly>
+                        </div>
+                        <div class="form-group">
+                            <label>Username:</label>
+                            <input type="text" id="profileUsername" readonly>
+                        </div>
+                        <div class="form-group">
+                            <label>Account Status:</label>
+                            <input type="text" id="profileStatus" readonly>
+                        </div>
+                        <button class="btn-secondary" id="editProfileBtn">Edit Profile</button>
+                    </div>
+                </div>
+
+                <!-- Wallet Tab -->
+                <div id="walletTab" class="account-tab-content">
+                    <h2>Wallet & Payment</h2>
+                    <div class="wallet-info">
+                        <div class="wallet-card">
+                            <h3>Cash Balance</h3>
+                            <p class="wallet-amount" id="cashBalanceDisplay">₱500.00</p>
+                            <button class="btn-secondary" data-action="addCash">Add Cash</button>
+                        </div>
+                        <div class="wallet-card">
+                            <h3>E-Wallet Balance</h3>
+                            <p class="wallet-amount" id="ewalletBalanceDisplay">₱500.00</p>
+                            <button class="btn-secondary" data-action="topupEwallet">Top Up</button>
+                        </div>
+                        <div class="wallet-card">
+                            <h3>Outstanding Debt</h3>
+                            <p class="wallet-amount" id="debtDisplay">₱0.00</p>
+                            <button class="btn-secondary" data-action="payDebt">Pay Debt</button>
+                        </div>
+                    </div>
+                    <h3>Recent Transactions</h3>
+                    <div id="transactionsList" class="transactions-list"></div>
+                </div>
+
+                <!-- Purchase History Tab -->
+                <div id="historyTab" class="account-tab-content">
+                    <h2>Purchase History</h2>
+                    <div id="purchaseHistoryList" class="purchase-history"></div>
+                </div>
+
+                <!-- Loyalty Tab -->
+                <div id="loyaltyTab" class="account-tab-content">
+                    <h2>Loyalty Program</h2>
+                    <div class="loyalty-overview">
+                        <div class="loyalty-stat">
+                            <span class="label">Current Points</span>
+                            <span class="value" id="currentPoints">0</span>
+                        </div>
+                        <div class="loyalty-stat">
+                            <span class="label">Next Badge</span>
+                            <span class="value" id="nextBadge">—</span>
+                        </div>
+                    </div>
+                    <h3>How It Works</h3>
+                    <p>Earn 1 point per 50 PHP spent. Redeem points for discounts!</p>
+                    <h3>Available Badges</h3>
+                    <div id="badgesAvailable" class="badges-available"></div>
+                </div>
+
+                <!-- Settings Tab -->
+                <div id="settingsTab" class="account-tab-content">
+                    <h2>Account Settings</h2>
+                    <div class="settings-list">
+                        <div class="setting-item">
+                            <label>Email Notifications:</label>
+                            <input type="checkbox" id="emailNotifications" checked>
+                        </div>
+                        <div class="setting-item">
+                            <label>SMS Alerts:</label>
+                            <input type="checkbox" id="smsAlerts">
+                        </div>
+                        <div class="setting-item">
+                            <label>Newsletter:</label>
+                            <input type="checkbox" id="newsletter" checked>
+                        </div>
+                    </div>
+                    <button class="btn-secondary" id="changePasswordBtn">Change Password</button>
+                    <button class="btn-danger" id="deleteAccountBtn">Delete Account</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Admin Screen -->
+        <section id="adminScreen" class="screen hidden">
+            <div class="admin-container">
+                <h2>Admin Panel</h2>
+                <div class="admin-tabs">
+                    <button class="admin-tab-btn active" data-admin-tab="inventory">Inventory</button>
+                    <button class="admin-tab-btn" data-admin-tab="products">Products</button>
+                    <button class="admin-tab-btn" data-admin-tab="reports">Reports</button>
+                    <button class="admin-tab-btn" data-admin-tab="promotions">Promotions</button>
+                </div>
+
+                <!-- Inventory Tab -->
+                <div id="inventoryTab" class="admin-tab-content active">
+                    <h3>Stock Management</h3>
+                    <table class="admin-table">
+                        <thead>
+                            <tr>
+                                <th>Product</th>
+                                <th>Current Stock</th>
+                                <th>Threshold</th>
+                                <th>Status</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="inventoryTable"></tbody>
+                    </table>
+                </div>
+
+                <!-- Products Tab -->
+                <div id="productsTab" class="admin-tab-content">
+                    <h3>Product Management</h3>
+                    <button class="btn-primary" id="addProductBtn">+ Add Product</button>
+                    <table class="admin-table">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Category</th>
+                                <th>Price</th>
+                                <th>Stock</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="productsTable"></tbody>
+                    </table>
+                </div>
+
+                <!-- Reports Tab -->
+                <div id="reportsTab" class="admin-tab-content">
+                    <h3>Sales Reports</h3>
+                    <div class="report-filters">
+                        <select id="reportPeriod">
+                            <option value="daily">Daily</option>
+                            <option value="weekly">Weekly</option>
+                            <option value="monthly">Monthly</option>
+                        </select>
+                    </div>
+                    <div id="reportsContent"></div>
+                </div>
+
+                <!-- Promotions Tab -->
+                <div id="promotionsTab" class="admin-tab-content">
+                    <h3>Manage Promotions</h3>
+                    <button class="btn-primary" id="addPromotionBtn">+ Add Promotion</button>
+                    <div id="promotionsList" class="promotions-list"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Checkout Modal -->
+        <div id="checkoutModal" class="modal hidden">
+            <div class="modal-content checkout-modal">
+                <span class="close">&times;</span>
+                <h2>Complete Your Purchase</h2>
+                
+                <div class="checkout-step">
+                    <h3>Payment Details</h3>
+                    <div id="paymentDetails"></div>
+                    <button class="btn-primary" id="confirmPaymentBtn">Confirm Payment</button>
+                    <button class="btn-secondary" id="cancelPaymentBtn">Cancel</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Receipt Modal -->
+        <div id="receiptModal" class="modal hidden">
+            <div class="modal-content receipt-modal">
+                <span class="close">&times;</span>
+                <div id="receiptContent" class="receipt-content"></div>
+                <div class="receipt-actions">
+                    <button class="btn-primary" id="printReceiptBtn">Print</button>
+                    <button class="btn-secondary" id="downloadReceiptBtn">Download</button>
+                    <button class="btn-secondary" id="closeReceiptBtn">Close</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 500 BETA MART SHOP. Owned and Operated by Group 2, 1CSIT Inc., Colegio de San Juan de Letran Calamba</p>
+            <div class="footer-links">
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notifications -->
+    <div id="toastContainer" class="toast-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
